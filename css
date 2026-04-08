@@ -1,1 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+header {
+    background-color: cadetblue;
+    padding: 32px;
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#container {
+
+    background-color: purple;
+    padding: 32x;
+    margin: 16px 0px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-around;
+}
+.item {
+    margin: 12px;
+    padding: 12px;
+    height: 64px;
+    background-color: yellow;
+}
+.retangulo {
+    width: 96px;
+}
+
+.quadrado {
+    width: 64px;
+}
+
+.circulo {
+    border-radius: 50%;
+    width: 64px;
+}
+
 
